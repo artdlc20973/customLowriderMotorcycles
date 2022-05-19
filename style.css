@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://cdnb.artstation.com/p/marketplace/presentation_assets/000/712/671/large/file.jpg?1612636146')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #1e96ff;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1em;
+  color: #1e96ff;
+  font-size: 1.1em;
+}
+
+.nav li a:hover {
+  color: #c3e3ff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 220px auto;
+}
+
+h1 {
+  color: #c3e3ff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+p {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.8;
+  margin: 1.2em 4em;
+  color: #1e96ff4b;
+  cursor: pointer;
+  padding-bottom: 2em;
+}
+
+p:hover {
+  color: #1e96ff;
+}
+
+button {
+  background: #c3e3ff50;
+  color: #fff;
+  border: none;
+  font-size: 1.8em;
+  padding: 12px 45px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+
+
+
+
+
+
+/* https://cdnb.artstation.com/p/marketplace/presentation_assets/000/712/671/large/file.jpg?1612636146 */
